@@ -264,7 +264,7 @@ class autovisitor extends Random_UA {
 
 for($i = 1; $i < $max+1; $i++) {
 	$class = new autovisitor($url);
-	echo $i."Getting Visitor From - ".$class->jalankan()."\n";
+	echo $i.". Getting Visitor From - ".$class->jalankan()."\n";
 }
 
 echo "$green Don't forget to
