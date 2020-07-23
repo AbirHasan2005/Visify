@@ -1,11 +1,11 @@
 <?php
-// This was coded by @AbirHasan2005
-// If you use any codes from here must give me credits.
-// Main GitHub Repo: https://github.com/AbirHasan2005
-// Telegram Group: http://t.me/linux_repo
-// Read REDAME.md
+# This was coded by @AbirHasan2005
+# If you use any codes from here must give me credits.
+# Main GitHub Repo: https://github.com/AbirHasan2005/Visify
+# Telegram Group: http://t.me/linux_repo
+# Read REDAME.md
 
-$version = "1.7";
+$version = "1.8";
 
 $blue = "\e[34m";
 $yellow = "\e[33m";
@@ -26,14 +26,14 @@ echo "$green Coded by$violet @AbirHasan2005 \n\n ";
 # echo "$red Please Wait ... ";
 # echo file_get_contents("https://pastebin.com/raw/k4qabq9K");
 echo " \n";
-echo "$green Facebook:$cyan https://facebook.com/AbirHasan2005 \n";
-echo "$green GitHub:$cyan https://github.com/AbirHasan2005 \n";
+echo "$green GitHub:$cyan https://github.com/AbirHasan2005/Visify \n";
 echo "$green Telegram Group:$cyan http://t.me/linux_repo \n";
 echo " \n \n";
-echo "$cyan ========= AUTO VISITOR =========\n\n";
+echo "$cyan ========= AUTO VISITOR =========\n";
+echo "$violet       (Traffic Generator)\n\n\n";
 echo "$yellow Enter Link:$cyan ";
 $url = trim(fgets(STDIN));
-echo "$yellow Number of Visitor:$cyan ";
+echo "$yellow Number of Visitors:$cyan ";
 $max = trim(fgets(STDIN));
 
 error_reporting(0);
@@ -215,39 +215,36 @@ class autovisitor extends Random_UA {
 
 	private function acakReferer() {
 		$list = array();
-		/* Asal traffic yang di submit */ 
+		/* Getting traffic from these sites */ 
 		$list[] = "http://teletechstore.blogspot.com";
+        $list[] = "http://github.com/AbirHasan2005/Deskify";
+        $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://t.me/linux_repo";
+        $list[] = "http://github.com/AbirHasan2005/CoronaStats";
+        $list[] = "http://teletechstore.blogspot.com";
+        $list[] = "http://github.com/AbirHasan2005/ShellPhish";
+        $list[] = "http://teletechstore.blogspot.com";
+		$list[] = "http://facebook.com/AbirHasan2005";
+        $list[] = "http://github.com/AbirHasan2005/Visify";
+        $list[] = "http://teletechstore.blogspot.com";
+		$list[] = "http://twitter.com/AbirHasan2005";
+        $list[] = "http://github.com/AbirHasan2005/OPRecon";
+        $list[] = "http://teletechstore.blogspot.com";
+        $list[] = "http://teletechstore.blogspot.com";
+        $list[] = "http://github.com/AbirHasan2005/LittleBrother";
+        $list[] = "http://teletechstore.blogspot.com";
+	    $list[] = "http://twitter.com/AbirHasan2005";
+        $list[] = "http://github.com/AbirHasan2005/PowerLevel10K";
+        $list[] = "http://teletechstore.blogspot.com";
+	    $list[] = "https://teletechstore.blogspot.com";
+        $list[] = "http://instagram.com/AbirHasan2005";
+        $list[] = "http://teletechstore.blogspot.com";
+        $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://github.com/AbirHasan2005";
-		$list[] = "http://facebook.com";
-		$list[] = "http://google.com.sg";
-		$list[] = "http://twitter.com";
- 		$list[] = "http://facebook.com";
-        $list[] = "http://google.com.sg";
-	    $list[] = "http://twitter.com";
-	    $list[] = "http://google.co.id";
-	    $list[] = "http://google.com.my";
-	    $list[] = "http://google.jp";
-	    $list[] = "http://google.us";
-	    $list[] = "http://google.tl";
-	    $list[] = "http://google.ac";
-	    $list[] = "http://google.ad";
-	    $list[] = "http://google.ae";
-	    $list[] = "http://google.af";
-	    $list[] = "http://google.ag";
-	    $list[] = "http://google.ru";
-	    $list[] = "http://google.by";
-	    $list[] = "http://google.ca";
-	    $list[] = "http://google.cn";
-	    $list[] = "http://google.cl";
-	    $list[] = "http://google.cm";
-	    $list[] = "http://google.cv";
-	    $list[] = "http://google.gg";
-	    $list[] = "http://google.ge";
-	    $list[] = "http://google.gr";
-	    $list[] = "http://google.com.tw";
-	    $list[] = "https://search.yahoo.com";
-        $list[] = "http://www.beinyu.com";
+        $list[] = "http://twitter.com/AbirHasan2005";
+        $list[] = "http://teletechstore.blogspot.com";
+        $list[] = "http://t.me/linux_repo";
+        $list[] = "http://facebook.com/AbirHasan2005";
 
 
 		$acak = array_rand($list,1);
@@ -267,8 +264,9 @@ class autovisitor extends Random_UA {
 
 for($i = 1; $i < $max+1; $i++) {
 	$class = new autovisitor($url);
-	echo $i.". VISITORS SENT VIA REFERER - ".$class->jalankan()."\n";
+	echo $i."Getting Visitor From - ".$class->jalankan()."\n";
 }
 
-echo "$green Join Telegram Group for feedback and help:$cyan http://t.me/linux_repo \n\n";
+echo "$green Don't forget to
+$green Join Telegram Group for feedback and help:$cyan http://t.me/linux_repo \n\n";
 ?>
