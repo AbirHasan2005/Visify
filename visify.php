@@ -214,9 +214,9 @@ class autovisitor extends Random_UA {
 	}
 
 	private function acakReferer() {
-		$list = array();
-		/* Getting traffic from these sites */ 
-		$list[] = "http://teletechstore.blogspot.com";
+	$list = array();
+	/* Getting traffic from these sites */ 
+	$list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://github.com/AbirHasan2005/Deskify";
         $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://t.me/linux_repo";
@@ -224,19 +224,19 @@ class autovisitor extends Random_UA {
         $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://github.com/AbirHasan2005/ShellPhish";
         $list[] = "http://teletechstore.blogspot.com";
-		$list[] = "http://facebook.com/AbirHasan2005";
+	$list[] = "http://facebook.com/AbirHasan2005";
         $list[] = "http://github.com/AbirHasan2005/Visify";
         $list[] = "http://teletechstore.blogspot.com";
-		$list[] = "http://twitter.com/AbirHasan2005";
+	$list[] = "http://twitter.com/AbirHasan2005";
         $list[] = "http://github.com/AbirHasan2005/OPRecon";
         $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://github.com/AbirHasan2005/LittleBrother";
         $list[] = "http://teletechstore.blogspot.com";
-	    $list[] = "http://twitter.com/AbirHasan2005";
+	$list[] = "http://twitter.com/AbirHasan2005";
         $list[] = "http://github.com/AbirHasan2005/PowerLevel10K";
         $list[] = "http://teletechstore.blogspot.com";
-	    $list[] = "https://teletechstore.blogspot.com";
+	$list[] = "https://teletechstore.blogspot.com";
         $list[] = "http://instagram.com/AbirHasan2005";
         $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://teletechstore.blogspot.com";
@@ -247,7 +247,7 @@ class autovisitor extends Random_UA {
         $list[] = "http://facebook.com/AbirHasan2005";
 
 
-		$acak = array_rand($list,1);
+	$acak = array_rand($list,1);
 		return $list[$acak];
 	}
 
