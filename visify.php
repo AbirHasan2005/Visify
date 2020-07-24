@@ -5,14 +5,14 @@
 # Telegram Group: http://t.me/linux_repo
 # Read REDAME.md
 
-$version = "1.8";
+$version = "1.9";   # Change version from here
 
-$blue = "\e[34m";
-$yellow = "\e[33m";
-$cyan = "\e[96m";
-$violet = "\e[35m";
-$green = "\e[92m";
-$red = "\e[91m";
+$blue = "\e[34m";   # Color
+$yellow = "\e[33m"; # Color 
+$cyan = "\e[96m";   # Color
+$violet = "\e[35m"; # Color
+$green = "\e[92m";  # Color
+$red = "\e[91m";    # Color
 
 echo "\n\n";
 echo "$cyan __     ___     _  __
@@ -20,21 +20,21 @@ echo "$cyan __     ___     _  __
   \ \ / /| / __| | |_| | | |
    \ V / | \__ \ |  _| |_| |
     \_/  |_|___/_|_|  \__, |
-                      |___/ $blue v$version \n\n";
+                      |___/ $blue v$version \n\n";  # Logo
 
-echo "$green Coded by$violet @AbirHasan2005 \n\n ";
-# echo "$red Please Wait ... ";
-# echo file_get_contents("https://pastebin.com/raw/k4qabq9K");
+echo "$green Coded by$violet @AbirHasan2005 \n\n "; # By Tag
+# echo "$red Please Wait ... ";                                 # Locked because no need of this ...
+# echo file_get_contents("https://pastebin.com/raw/k4qabq9K");  # Locked because no need of this ...
 echo " \n";
-echo "$green GitHub:$cyan https://github.com/AbirHasan2005/Visify \n";
-echo "$green Telegram Group:$cyan http://t.me/linux_repo \n";
+echo "$green GitHub:$cyan https://github.com/AbirHasan2005/Visify \n"; # Link
+echo "$green Telegram Group:$cyan http://t.me/linux_repo \n";          # Link
 echo " \n \n";
 echo "$cyan ========= AUTO VISITOR =========\n";
 echo "$violet       (Traffic Generator)\n\n\n";
-echo "$yellow Enter Link:$cyan ";
-$url = trim(fgets(STDIN));
-echo "$yellow Number of Visitors:$cyan ";
-$max = trim(fgets(STDIN));
+echo "$yellow Enter Link:$cyan ";         # Input
+$url = trim(fgets(STDIN));                # Get input
+echo "$yellow Number of Visitors:$cyan "; # Input
+$max = trim(fgets(STDIN));                # Get input
 
 error_reporting(0);
 class Random_UA
@@ -216,7 +216,7 @@ class autovisitor extends Random_UA {
 	private function acakReferer() {
 	$list = array();
 	/* Getting traffic from these sites */ 
-	$list[] = "http://teletechstore.blogspot.com";
+        $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://github.com/AbirHasan2005/Deskify";
         $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://t.me/linux_repo";
@@ -224,19 +224,19 @@ class autovisitor extends Random_UA {
         $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://github.com/AbirHasan2005/ShellPhish";
         $list[] = "http://teletechstore.blogspot.com";
-	$list[] = "http://facebook.com/AbirHasan2005";
+        $list[] = "http://facebook.com/AbirHasan2005";
         $list[] = "http://github.com/AbirHasan2005/Visify";
         $list[] = "http://teletechstore.blogspot.com";
-	$list[] = "http://twitter.com/AbirHasan2005";
+        $list[] = "http://twitter.com/AbirHasan2005";
         $list[] = "http://github.com/AbirHasan2005/OPRecon";
         $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://github.com/AbirHasan2005/LittleBrother";
         $list[] = "http://teletechstore.blogspot.com";
-	$list[] = "http://twitter.com/AbirHasan2005";
+        $list[] = "http://twitter.com/AbirHasan2005";
         $list[] = "http://github.com/AbirHasan2005/PowerLevel10K";
         $list[] = "http://teletechstore.blogspot.com";
-	$list[] = "https://teletechstore.blogspot.com";
+        $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://instagram.com/AbirHasan2005";
         $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://teletechstore.blogspot.com";
@@ -247,7 +247,7 @@ class autovisitor extends Random_UA {
         $list[] = "http://facebook.com/AbirHasan2005";
 
 
-	$acak = array_rand($list,1);
+		$acak = array_rand($list,1);
 		return $list[$acak];
 	}
 
@@ -264,9 +264,9 @@ class autovisitor extends Random_UA {
 
 for($i = 1; $i < $max+1; $i++) {
 	$class = new autovisitor($url);
-	echo $i.". Getting Visitor From - ".$class->jalankan()."\n";
+	echo $i.". Getting Visitor From - ".$class->jalankan()."\n"; # Informations  while getting traffic
 }
 
 echo "$green Don't forget to
-$green Join Telegram Group for feedback and help:$cyan http://t.me/linux_repo \n\n";
+$green Join Telegram Group for feedback and help:$cyan http://t.me/linux_repo \n\n"; # Last message
 ?>
