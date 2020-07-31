@@ -1,5 +1,17 @@
-# Visify v1.9
-Using this tool you can increase visitors in your blog. Just copy link and paste, enter number of visitors and wait for the process. Not so correct views. Recommanded for Termux only. But you can try in others. Now more improved.
+# Visify v2.0
+Using this tool you can increase visitors in your blog. Just copy link and paste, enter number of visitors and wait for the process. Not so perfect views. Recommanded for Termux only. But you can try in others. Now more improved.
+
+## ChangeLog:
+- Version 2.0
+- Removed same URLs
+- Added new URLs
+    - Added http://github.com/AbirHasan2005/YouTube_Views_Bot
+    - Added http://github.com/AbirHasan2005/RepoHub
+- More improved
+    - More accurate views
+    - Bugs cleared
+    - Fixed not working with some links from WordPress
+- Smaller file size than before
 
 ## How to use:
 - Setup:
@@ -7,11 +19,14 @@ Download and install `php` and `git` package.
 	- In Termux install via `pkg install php git -y` command.
 	- In Kali/Dabian/Ubuntu install via `sudo apt-get install php git -y` command.
 	- In Arch Linux install via `sudo pacman install -Sy php git` command.
-	- In Windows install PHP and git by searching in Google ;) or install Ubuntu in Windows by typing `bash` command in Command Prompt/PowerShell. It will install Ubuntu in your Windows. But remember to enable ***Windows Subsystem for Linux (Beta)*** in *Windows Features* first. Okay watch a video on YouTube.
+	- In Windows install PHP and git by searching in Google ;) or install Ubuntu in Windows by typing `bash` command in Command Prompt/PowerShell. It will install Ubuntu in your Windows. But remember to enable ***Windows Subsystem for Linux (Beta)*** in **Windows Features** first. Okay watch a video on YouTube for that. It will be better.
 
-- Download Visify and run via the below command:
-	- `git clone https://github.com/AbirHasan2005/Visify && cd Visify && php visify.php`
-	- Paste this command in Command Line.
+- Download
+	- Command `git clone https://github.com/AbirHasan2005/Visify`
+- Go to Visify directory
+    - Command `cd Visify`
+- Run tool
+    - Command `php visify.php`
 
 - Enter URL/Link of your blog/Post/Website/GitHub Repo
 	- Just get a link it will auto visit that link ;)
@@ -21,17 +36,14 @@ Download and install `php` and `git` package.
 
 - Wait till the process Ends
 	- Play any game bro ;)
-	- Or do your other hackings ;)
+	- Or take a cup of Tea ;)
 	- Just wait ...
 
-- Join Telegram Group: http://t.me/linux_repo
-	- Join Telegram Group for feedback, chat, help and more. Chat with me there. Learn more.
+- Join [Telegram Group](http://t.me/linux_repo)
+	- Join [Telegram Group](http://t.me/linux_repo) for feedback, chat, help and more. Chat with me there. Learn more.
 
 ## Follow on:
-### Github: https://github.com/AbirHasan2005
-### Twitter: https://twitter.com/AbirHasan2005
-### Facebook: https://facebook.com/AbirHasan2005
-### Instagram: https://instagram.com/AbirHasan2005
+[Github](https://github.com/AbirHasan2005) | [Twitter](https://twitter.com/AbirHasan2005) | [Facebook](https://facebook.com/AbirHasan2005) | [Instagram](https://instagram.com/AbirHasan2005)
 
 ---
 
@@ -51,7 +63,7 @@ Download and install `php` and `git` package.
 # Telegram Group: http://t.me/linux_repo
 # Read REDAME.md
 
-$version = "1.9";   # Change version from here
+$version = "2.0";   # Change version from here
 
 $blue = "\e[34m";   # Color
 $yellow = "\e[33m"; # Color 
@@ -263,34 +275,20 @@ class autovisitor extends Random_UA {
     $list = array();
     /* Getting traffic from these sites */ 
         $list[] = "http://teletechstore.blogspot.com";
-        $list[] = "http://github.com/AbirHasan2005/Deskify";
-        $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://t.me/linux_repo";
-        $list[] = "http://github.com/AbirHasan2005/CoronaStats";
-        $list[] = "http://teletechstore.blogspot.com";
-        $list[] = "http://github.com/AbirHasan2005/ShellPhish";
-        $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://facebook.com/AbirHasan2005";
-        $list[] = "http://github.com/AbirHasan2005/Visify";
-        $list[] = "http://teletechstore.blogspot.com";
-        $list[] = "http://twitter.com/AbirHasan2005";
-        $list[] = "http://github.com/AbirHasan2005/OPRecon";
-        $list[] = "http://teletechstore.blogspot.com";
-        $list[] = "http://teletechstore.blogspot.com";
-        $list[] = "http://github.com/AbirHasan2005/LittleBrother";
-        $list[] = "http://teletechstore.blogspot.com";
-        $list[] = "http://twitter.com/AbirHasan2005";
-        $list[] = "http://github.com/AbirHasan2005/PowerLevel10K";
-        $list[] = "http://teletechstore.blogspot.com";
-        $list[] = "http://teletechstore.blogspot.com";
         $list[] = "http://instagram.com/AbirHasan2005";
-        $list[] = "http://teletechstore.blogspot.com";
-        $list[] = "http://teletechstore.blogspot.com";
-        $list[] = "http://github.com/AbirHasan2005";
         $list[] = "http://twitter.com/AbirHasan2005";
-        $list[] = "http://teletechstore.blogspot.com";
-        $list[] = "http://t.me/linux_repo";
-        $list[] = "http://facebook.com/AbirHasan2005";
+        $list[] = "http://github.com/AbirHasan2005";
+        $list[] = "http://github.com/AbirHasan2005/Visify";
+        $list[] = "http://github.com/AbirHasan2005/OPRecon";
+        $list[] = "http://github.com/AbirHasan2005/LittleBrother";
+        $list[] = "http://github.com/AbirHasan2005/PowerLevel10K";
+        $list[] = "http://github.com/AbirHasan2005/Deskify";
+        $list[] = "http://github.com/AbirHasan2005/CoronaStats";
+        $list[] = "http://github.com/AbirHasan2005/ShellPhish";
+        $list[] = "http://github.com/AbirHasan2005/YouTube_Views_Bot";
+        $list[] = "http://github.com/AbirHasan2005/RepoHub";
 
 
         $acak = array_rand($list,1);
@@ -310,7 +308,7 @@ class autovisitor extends Random_UA {
 
 for($i = 1; $i < $max+1; $i++) {
     $class = new autovisitor($url);
-    echo $i.". Getting Visitor From - ".$class->jalankan()."\n"; # Informations  while getting traffic
+    echo $i.". Getting Visitor From -$blue ".$class->jalankan()."\n"; # Informations  while getting traffic
 }
 
 echo "$green Don't forget to
@@ -329,3 +327,4 @@ $green Join Telegram Group for feedback and help:$cyan http://t.me/linux_repo \n
 - More stylish
 - More fast
 - More correct views
+- More colored
