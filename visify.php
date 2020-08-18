@@ -5,7 +5,7 @@
 # Telegram Group: http://t.me/linux_repo
 # Read REDAME.md
 
-$version = "2.0";   # Change version from here
+$version = "2.1";   # Change version from here
 
 $blue = "\e[34m";   # Color
 $yellow = "\e[33m"; # Color 
@@ -231,6 +231,10 @@ class autovisitor extends Random_UA {
         $list[] = "http://github.com/AbirHasan2005/ShellPhish";
         $list[] = "http://github.com/AbirHasan2005/YouTube_Views_Bot";
         $list[] = "http://github.com/AbirHasan2005/RepoHub";
+        $list[] = "http://github.com/AbirHasan2005/fsociety";
+        $list[] = "http://github.com/AbirHasan2005/TelegramScraper";
+        $list[] = "http://github.com/AbirHasan2005/PySnakeGame";
+        $list[] = "http://github.com/AbirHasan2005/TG_UseBot_Plugins";
 
 
 		$acak = array_rand($list,1);
@@ -250,7 +254,7 @@ class autovisitor extends Random_UA {
 
 for($i = 1; $i < $max+1; $i++) {
 	$class = new autovisitor($url);
-	echo $i.". Getting Visitor From -$blue ".$class->jalankan()."\n"; # Informations  while getting traffic
+	echo $i.". Getting Visitor From - ".$class->jalankan()."\n"; # Informations while getting traffic
 }
 
 echo "$green Don't forget to
